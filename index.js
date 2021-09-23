@@ -5,7 +5,7 @@ function randomInteger (minimum, maximum) {
   }
   return Math.floor(Math.random() * (maximum - minimum + 1) + minimum)
 }
-export function v4generate () {
+export default function v4generate () {
   return (
     '' +
     Math.floor(randomInteger(0, 255)) +
