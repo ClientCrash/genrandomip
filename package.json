@@ -1,5 +1,5 @@
 {
-  "name": "randomip",
+  "name": "genrandomip",
   "version": "1.0.0",
   "description": "Generate random ip adresses.",
   "main": "index.js",
@@ -19,9 +19,7 @@
   ],
   "author": "ClientCrash",
   "license": "ISC",
-  "dependencies": {
-    "random-int": "^3.0.0"
-  },
+  
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
